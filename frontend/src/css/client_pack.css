@@ -1,0 +1,156 @@
+/* index_pack.css */
+
+/* General container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Grid styles */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+  
+  @media (min-width: 640px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  /* Card styles */
+  .card {
+    border: 1px solid #e5e7eb;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  
+  .card p {
+    color: #4b5563;
+    margin-bottom: 16px;
+  }
+  
+  .card .price {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #4f46e5;
+  }
+  
+  /* Button styles */
+  .button {
+    background-color: #4f46e5;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #4338ca;
+  }
+  
+  .button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.5);
+  }
+  
+  /* Heading */
+  .heading {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  
+  .heading h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Empty data message */
+  .text-center {
+    text-align: center;
+  }
+  
+  .mb-8 {
+    margin-bottom: 32px;
+  }
+  
+  /* Utility classes */
+  .mb-4 {
+    margin-bottom: 16px;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .text-gray-600 {
+    color: #4b5563;
+  }
+  
+  .text-indigo-600 {
+    color: #4f46e5;
+  }
+  
+  .bg-indigo-600 {
+    background-color: #4f46e5;
+  }
+  
+  .bg-indigo-700:hover {
+    background-color: #4338ca;
+  }
+  
+  .focus:outline-none {
+    outline: none;
+  }
+  
+  .focus:ring-2 {
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.5);
+  }
+  
+  .rounded-md {
+    border-radius: 6px;
+  }
+  
+  .p-4 {
+    padding: 16px;
+  }
+  
+  .border {
+    border-width: 1px;
+  }
+  
+  .shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
